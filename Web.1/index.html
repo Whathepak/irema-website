@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IREMA - Ikatan Masjid</title>
+<link rel="stylesheet" href="css/index/index.css">
+<link rel="stylesheet" href="css/index/navbar.css">
+<link rel="stylesheet" href="css/index/footer.css">
+<link rel="stylesheet" href="css/index/responsive.css">
+
+  <!-- AOS Library -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
+  <!-- Lightbox2 CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Alice&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alice&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap">
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+  <meta name="description" content="Website resmi Ikatan Remaja Masjid (IREMA) Kp. Babakan. Berisi informasi kegiatan, dokumen, dan laporan kegiatan masjid.">
+  <meta name="keywords" content="IREMA, Remaja Masjid, Kegiatan Masjid, Kampung Babakan, Ikatan Remaja">
+  <meta name="author" content="IREMA">
+
+  <!-- Open Graph Metadata -->
+<meta property="og:title" content="IREMA Kampung Babakan - Ikatan Remaja Masjid">
+<meta property="og:description" content="Website resmi Ikatan Remaja Masjid Kp. Babakan. Informasi kegiatan, dokumentasi, dan laporan.">
+<meta property="og:image" content="https://yourdomain.com/assets/img/irema.jpg">
+<meta property="og:url" content="https://yourdomain.com">
+<meta property="og:type" content="website">
+
+<!-- Twitter Card Metadata -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="IREMA Kampung Babakan - Ikatan Remaja Masjid">
+<meta name="twitter:description" content="Website resmi Ikatan Remaja Masjid Kp. Babakan. Informasi kegiatan dan dokumentasi.">
+<meta name="twitter:image" content="https://yourdomain.com/assets/img/irema.jpg">
+
+<link rel="canonical" href="https://yourdomain.com/">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "IREMA Kampung Babakan",
+  "url": "https://yourdomain.com",
+  "logo": "https://yourdomain.com/assets/img/logo.png",
+  "sameAs": [
+    "https://instagram.com/irema",
+    "https://wa.me/6283890127613"
+  ]
+}
+</script>
+
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Lewati ke Konten</a>
+
+  <div id="preloader">
+  <div class="spinner"></div>
+  </div>
+
+
+  <!-- HEADER -->
+  <header>
+    <h1 class="visually-hidden">Ikatan Remaja Masjid Kp. Babakan</h1>
+    <div class="logo">Ikatan Masjid</div>
+    <nav aria-label="Navigasi utama">
+      <button class="menu-toggle" aria-label="Buka menu navigasi" aria-expanded="false"><i class="fas fa-bars"></i></button>
+      <ul class="nav-links">
+        <li><a href="#" class="active">Beranda</a></li>
+        <li><a href="kegiatan.html">Kegiatan</a></li>
+        <li class="dropdown">
+          <a href="#" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="dropdown-dokumen">Dokumen <i class="fas fa-caret-down"></i></a>
+          <ul id="dropdown-dokumen" class="dropdown-menu">
+            <li><a href="#">Dokumen</a></li>
+            <li><a href="#">Dokumentasi</a></li>
+          </ul>
+        </li>
+        <li><a href="blog.html">Artikel</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li class="dropdown">
+          <a href="#" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="dropdown-about">About Us <i class="fas fa-caret-down"></i></a>
+          <ul id="dropdown-about" class="dropdown-menu">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Kontak</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div class="search-container">
+      <input type="text" placeholder="Cari...">
+      <button>
+        <i class="fas fa-search"></i>
+      </button>
+      <button id="darkModeToggle" aria-label="Toggle Dark Mode">
+        <span id="darkModeIcon">🌙</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- SLIDER -->
+<section id="main-content" class="hero-slider-horizontal">
+  <div class="slider-wrapper">
+    <div class="slide-item">
+      <img src="assets/img/irm.jpg" alt="Pengajian" loading="lazy">
+      <div class="slide-caption">
+        <h3>Pengajian Rutin</h3>
+        <p>Menguatkan iman dan ukhuwah</p>
+      </div>
+    </div>
+    <div class="slide-item">
+      <img src="assets/img/irema.jpg" alt="Bakti Sosial" loading="lazy">
+      <div class="slide-caption">
+        <h3>Bakti Sosial</h3>
+        <p>Berbagi dengan masyarakat sekitar</p>
+      </div>
+    </div>
+    <div class="slide-item">
+      <img src="assets/img/ir.png" alt="Lomba Cerdas Cermat" loading="lazy">
+      <div class="slide-caption">
+        <h3>Lomba Cerdas Cermat</h3>
+        <p>Kreativitas dan kebersamaan remaja</p>
+      </div>
+    </div>
+  </div>
+  <button class="prev">&#10094;</button>
+  <button class="next">&#10095;</button>
+  <div class="slider-dots"></div>
+</section>
+
+
+
+  <!-- WELCOME SECTION -->
+  <section id="main-content" class="welcome">
+    <div class="welcome-left">
+      <h2>We Welcome You</h2>
+      <p>Selamat datang di website resmi Ikatan Remaja Masjid Kp. Babakan. Di sini kami berbagi informasi, dokumentasi, dan kegiatan terbaru kami.</p>
+    </div>
+    <div class="welcome-right">
+      <a href="https://wa.me/6283890127613?text=Halo%20IREMA%2C%20saya%20ingin%20bertanya..." target="_blank" class="social-icon whatsapp" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a href="https://instagram.com/irema" class="social-icon instagram" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+  </section>
+
+  <section id="main-content" class="hero-welcome">
+    <div class="hero-content">
+      <h2>Selamat Datang di Website Resmi IREMA Kp. Babakan</h2>
+      <p>Bersama dalam kebaikan, berbagi informasi kegiatan dan dokumentasi kami.</p>
+      <a href="kegiatan.html" class="btn-primary">Lihat Kegiatan</a>
+    </div>
+  </section>
+
+  <section id="main-content" class="about-us">
+    <div class="hero-about-us">
+      <h3>Tentang IREMA</h3>
+      <p>Ikatan Remaja Masjid Kampung Babakan adalah organisasi pemuda yang berfokus pada kegiatan keagamaan, sosial, dan edukasi. Kami berkomitmen membangun generasi muda yang berakhlak mulia dan peduli lingkungan.</p>
+      <a href="about.html" class="btn-primary">Lihat Detail</a>
+    </div>
+  </section>
+
+  <section id="main-content" id="kegiatan" class="recent-activities">
+  <h3>Kegiatan Terbaru</h3>
+  <div class="activities-grid">
+    <div class="activity-item" data-aos="fade-up">
+      <img src="assets/img/irm.jpg" alt="Pengajian Remaja" loading="lazy">
+      <h4>Pengajian Remaja</h4>
+      <p>Rutin tiap Jumat malam, mempererat ukhuwah.</p>
+    </div>
+    <div class="activity-item" data-aos="fade-up">
+      <img src="assets/img/ir.png" alt="Bakti Sosial" loading="lazy">
+      <h4>Bakti Sosial</h4>
+      <p>Kegiatan berbagi dengan masyarakat sekitar.</p>
+    </div>
+    <div class="activity-item" data-aos="fade-up">
+      <img src="assets/img/irm.jpg" alt="Lomba Cerdas Cermat">
+      <h4>Lomba Cerdas Cermat</h4>
+      <p>Ajang kreatifitas dan kebersamaan remaja.</p>
+    </div>
+  </div>
+</section>
+
+<section id="main-content" class="testimoni">
+  <h3>Testimoni</h3>
+  <div class="testimoni-grid">
+    <div class="testimoni-item" data-aos="fade-up">
+      <img src="assets/img/ustadz.jpg" alt="Ustadz Ahmad" class="testimoni-avatar">
+      <blockquote>"Kegiatan IREMA sangat bermanfaat untuk generasi muda."</blockquote>
+      <cite>- Ustadz Ahmad</cite>
+    </div>
+    <div class="testimoni-item" data-aos="fade-up">
+      <img src="assets/img/ustadz.jpg" alt="Ustadz Ahmad" class="testimoni-avatar">
+      <blockquote>"Saya merasa lebih dekat dengan masjid dan teman-teman."</blockquote>
+      <cite>- Aliyah, Anggota</cite>
+    </div>
+    <div class="testimoni-item" data-aos="fade-up">
+      <img src="assets/img/ustadz.jpg" alt="Ustadz Ahmad" class="testimoni-avatar">
+      <blockquote>"Lingkungan yang mendidik dan penuh kebersamaan."</blockquote>
+      <cite>- Bapak Rahmat, Warga</cite>
+    </div>
+  </div>
+</section>
+
+<section id="main-content" class="galeri">
+  <h3>Galeri Foto</h3>
+  <div class="galeri-grid">
+    <div class="galeri-item" data-aos="fade-up">
+      <a href="assets/img/irm.jpg" data-lightbox="galeri" data-title="Kegiatan 1">
+        <img src="assets/img/irm.jpg" alt="Kegiatan 1" loading="lazy">
+      </a>
+    </div>
+    <div class="galeri-item" data-aos="fade-up">
+      <img src="assets/img/irm.jpg" alt="Kegiatan 2" loading="lazy">
+    </div>
+    <div class="galeri-item" data-aos="fade-up">
+      <img src="assets/img/ir.png" alt="Kegiatan 3" loading="lazy">
+    </div>
+    <div class="galeri-item" data-aos="fade-up">
+      <img src="assets/img/irm.jpg" alt="Kegiatan 4" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section id="main-content" class="contact-info">
+  <h3>Kontak Kami</h3>
+  <p>Jika ingin bertanya atau bekerjasama, silakan hubungi kami.</p>
+  <a href="https://wa.me/6283890127613" target="_blank" class="btn-primary">WhatsApp</a>
+</section>
+
+<section id="main-content" class="contact-form-section" data-aos="fade-up">
+  <h3>Hubungi Kami</h3>
+  <p>Silakan tinggalkan pesan melalui formulir berikut. Kami akan menghubungi Anda secepatnya.</p>
+
+<form id="contactform" class="contact-form">
+  <label for="nama" class="visually-hidden">Nama Lengkap</label>
+  <input id="nama" type="text" placeholder="Nama Lengkap" required>
+
+  <label for="email" class="visually-hidden">Email</label>
+  <input id="email" type="email" placeholder="Email" required>
+
+  <label for="pesan" class="visually-hidden">Pesan Anda</label>
+  <textarea id="pesan" placeholder="Pesan Anda" rows="5" required></textarea>
+
+  <button type="submit">Kirim Pesan</button>
+</form>
+
+</section>
+
+<section id="main-content" class="cta-join" data-aos="fade-up">
+  <h3>Bergabung Bersama Kami</h3>
+  <p>Jadilah bagian dari kegiatan positif Ikatan Remaja Masjid Kampung Babakan.</p>
+  <a href="https://wa.me/6283890127613" target="_blank" class="btn-cta">Gabung Sekarang</a>
+</section>
+
+<section id="main-content" class="donasi-section" data-aos="fade-up">
+  <h3>Dukungan Donasi</h3>
+  <p>Bantu mendukung kegiatan positif Ikatan Remaja Masjid Kampung Babakan.</p>
+  <div class="donasi-cards">
+    <div class="donasi-card">
+      <img src="assets/img/qris.png" alt="QRIS Donasi" loading="lazy">
+      <p>Scan QRIS ini untuk donasi mudah.</p>
+    </div>
+    <div class="donasi-card">
+      <h4>Rekening Bank</h4>
+      <p><strong>Bank Syariah Mandiri</strong></p>
+      <p>No. Rekening: 1234567890</p>
+      <p>a.n. IREMA Kampung Babakan</p>
+    </div>
+    <div class="donasi-card">
+      <a href="https://wa.me/62xxxxxxxxx" target="_blank" class="btn-primary">
+        Konfirmasi via WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+  <footer>
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>IREMA Kampung Babakan</h3>
+      <p>Ikatan Remaja Masjid berbagi informasi kegiatan, dokumentasi, dan laporan.</p>
+    </div>
+    <div class="footer-section">
+      <h4>Menu Cepat</h4>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="kegiatan.html">Kegiatan</a></li>
+        <li><a href="#">Dokumen</a></li>
+        <li><a href="#">About Us</a></li>
+      </ul>
+    </div>
+    <div class="footer-section" itemscope itemtype="schema.org/Organization">
+      <h4>Kontak</h4>
+      <p>
+      <span itemprop="name">IREMA Kampung Babakan</span><br>
+      Email: <a href="mailto:info@irema.or.id" itemprop="email">info@irema.or.id</a><br>
+      Whatsapp: <a href="https://wa.me/6283890127613" itemprop="telephone">+62 8389 0127 613</a>
+    </p>
+      <div class="footer-social">
+        <a href="https://wa.me/62xxxxxxxxx" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://instagram.com/irema" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2024 IREMA Kampung Babakan. All rights reserved.
+  </div>
+</footer>
+
+<button id="scrollToTopBtn" aria-label="Kembali ke atas">
+  <i class="fas fa-chevron-up"></i>
+</button>
+
+  <script src="js/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 800,
+    once: true
+  });
+</script>
+
+<!-- Lightbox2 JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+
+<script>
+document.querySelector('.contact-form').addEventListener('submit', function(e) {
+  e.preventDefault(); // Cegah submit default
+
+  const nama = document.getElementById('nama');
+  const email = document.getElementById('email');
+  const pesan = document.getElementById('pesan');
+
+  if (nama.value.trim() === "") {
+    alert("Nama tidak boleh kosong.");
+    nama.focus();
+    return;
+  }
+
+  // Validasi email sederhana
+  const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!emailPattern.test(email.value)) {
+    alert("Email tidak valid.");
+    email.focus();
+    return;
+  }
+
+  if (pesan.value.trim().length < 10) {
+    alert("Pesan minimal 10 karakter.");
+    pesan.focus();
+    return;
+  }
+
+  // Jika lolos semua validasi
+  this.submit();
+});
+</script>
+
+</body>
+</html>
