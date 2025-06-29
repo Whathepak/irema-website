@@ -1,0 +1,151 @@
+/* Mobile and Tablet */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1em;
+  }
+
+  .logo {
+    font-size: 32px;
+    margin-bottom: 0.5em;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background: #fff;
+    padding: 1em;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    z-index: 999;
+  }
+
+  nav ul.show {
+    display: flex;
+  }
+
+  nav ul li {
+    width: 100%;
+  }
+
+  nav ul li a {
+    padding: 1em;
+    width: 100%;
+    text-align: left;
+    font-size: 1em;
+  }
+  
+  nav ul li a i {
+    font-size: 0.8em;
+    margin-left: 0.3em;
+}
+
+  nav ul li .dropdown-menu {
+    position: relative;
+    top: 0;
+    left: 0;
+    box-shadow: none;
+    background: #f9f9f9;
+    border-radius: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+    flex-direction: column;
+  }
+
+  nav ul li:hover .dropdown-menu {
+    display: none;
+  }
+
+  nav ul li.active .dropdown-menu {
+    display: flex;
+    max-height: 500px;
+  }
+
+  .menu-toggle {
+    display: block;
+    color: #000;
+    margin-left: auto;
+  }
+
+  .search-container {
+    width: 100%;
+    margin-top: 1em;
+  }
+
+  .search-container input {
+    width: 100% !important;
+  }
+
+  .hero-slider-horizontal {
+    height: 200px;
+  }
+
+  .welcome {
+    flex-direction: column;
+    text-align: center;
+    padding: 1em;
+  }
+
+  .welcome-left h2 {
+    font-size: 1.5em;
+  }
+
+  .welcome-left p {
+    font-size: 1em;
+  }
+
+  .welcome-right {
+    margin-top: 1em;
+    justify-content: center;
+  }
+}
+
+/* Extra Small Screens */
+@media (max-width: 480px) {
+  .logo {
+    font-size: 28px;
+  }
+
+  nav ul li a {
+    font-size: 1em;
+  }
+
+  .search-container button {
+    padding: 0 0.8em;
+  }
+
+  .search-container input:focus {
+    width: 100%;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+  /* Default caret direction */
+nav ul li.dropdown > a i {
+  transition: transform 0.3s ease;
+}
+
+/* Rotate caret saat hover (desktop) */
+@media (min-width: 769px) {
+  nav ul li.dropdown:hover > a i {
+    transform: rotate(180deg);
+  }
+}
+
+/* Rotate caret saat menu aktif (mobile) */
+nav ul li.dropdown.active > a i {
+  transform: rotate(180deg);
+}

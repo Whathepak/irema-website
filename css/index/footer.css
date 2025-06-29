@@ -1,0 +1,86 @@
+footer {
+  background: linear-gradient(135deg, #222, #333);
+  color: #ccc;
+  padding: 2em 1em;
+  font-size: 0.95em;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  border-top: 1px solid #444;
+  border-bottom: 1px solid #444;
+  padding: 2em 0;
+}
+
+.footer-section {
+  flex: 1 1 250px;
+  margin: 1.5em;
+  border-right: 1px solid #444;
+  padding-right: 1.5em;
+}
+
+.footer-section h3, .footer-section h4 {
+  color: #fff;
+  margin-bottom: 0.5em;
+  font-family: 'Alice', serif;
+}
+
+.footer-section p {
+  line-height: 1.6;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 0.6em 0;
+}
+
+.footer-section ul li a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+  color: #fff;
+  transform: translateX(4px);
+}
+
+.footer-social {
+  display: flex;
+  gap: 1em;
+  margin-top: 0.8em;
+}
+
+.footer-social a {
+  color: #ccc;
+  font-size: 1.4em;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: #25D366;
+  transform: scale(1.2);
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 1em;
+  border-top: 1px solid #444;
+  margin-top: 1em;
+  font-size: 0.9em;
+  color: #aaa;
+}
+
+a:focus,
+button:focus {
+  outline: 2px;
+  outline-offset: 2px;
+}
